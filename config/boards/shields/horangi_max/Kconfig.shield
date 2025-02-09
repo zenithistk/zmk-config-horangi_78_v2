@@ -1,0 +1,5 @@
+config SHIELD_HORANGI_78_LEFT
+    def_bool $(shields_list_contains,horangi_78_left)
+
+config SHIELD_HORANGI_78_RIGHT
+    def_bool $(shields_list_contains,horangi_78_right)

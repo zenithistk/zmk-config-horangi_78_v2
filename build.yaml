@@ -1,0 +1,8 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: horangi_78_left
+  - board: nice_nano_v2
+    shield: horangi_78_right
+  - board: nice_nano_v2
+    shield: settings_reset

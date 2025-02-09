@@ -1,0 +1,11 @@
+file_format: "1"
+id: horangi_78
+name: horangi_78
+type: shield
+url: https://github.com/zenithistk/horangi
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - horangi_78_left
+  - horangi_78_right
