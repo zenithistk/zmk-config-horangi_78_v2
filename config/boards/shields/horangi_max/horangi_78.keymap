@@ -117,10 +117,10 @@
 
         lower_layer {
             bindings = <
-         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6           &kp F7  &kp F8  &kp F9  &kp F10   &kp F11 &kp F12      &trans    &kp PRINTSCREEN
+         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                 &kp F7  &kp F8  &kp F9  &kp F10   &kp F11 &kp F12      &trans    &kp PRINTSCREEN
 &bt_0_clr   &trans   &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans   &trans    &kp SLCK
-&bt_1_clr    &trans  &trans   &trans   &trans   &trans   &trans   &trans    &trans   &trans   &trans   &trans   &trans  &trans          &trans   &kp PAUSE_BREAK
-&bt_2_clr     &trans &trans   &trans   &trans   &trans   &trans          &trans &trans   &trans   &trans &trans &trans &trans   &trans      &trans
+&bt_1_clr    &trans   &trans   &trans   &trans   &trans   &trans   &trans    &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT   &trans  &trans     &trans   &kp PAUSE_BREAK
+&bt_2_clr     &trans   &trans   &trans   &trans   &trans   &trans          &trans &kp HOME   &kp END   &kp PG_UP &kp PG_DN &trans &trans   &trans      &trans
 &out OUT_USB   &trans &trans &trans     &trans  &trans                &trans   &trans  &trans &trans &trans    &trans &trans    &trans
             >;
         };
